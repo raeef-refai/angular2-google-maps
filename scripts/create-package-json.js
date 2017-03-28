@@ -10,7 +10,7 @@ pkgNames.forEach(function(pkgName) {
   const basePkgJson = JSON.parse(fs.readFileSync('./package.json', 'utf8'));
 
   // define the package name
-  basePkgJson.name = `@angular-google-maps/${pkgName}`
+  basePkgJson.name = `@agm/${pkgName}`
 
   // remove scripts
   delete basePkgJson.scripts;
