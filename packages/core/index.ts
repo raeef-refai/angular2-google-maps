@@ -20,6 +20,7 @@ export {
   LatLngLiteral,
   MapTypeStyle,
   PolyMouseEvent,
+  ZoomControlOptions,
 } from './services/google-maps-types';
 
 // core module
